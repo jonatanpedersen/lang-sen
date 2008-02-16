@@ -1,0 +1,94 @@
+﻿html
+{ 
+	color : #fff;
+	background : #000;
+}
+
+body
+{
+	width: 980px;
+	font-family: arial;
+	background-color: #111;
+	color:#eee;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-image: url('/images/ui/body-background.gif');
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+
+#top_pane { width: 960px; height: 130px; margin: 0px; padding: 10px; background-color: #C886B6;	background-image: url('/images/ui/top-pane-background.gif'); }
+#top_pane_image { margin: 0px; padding: 2px; border: 2px solid #fff; width: 100px; height: 120px; }
+
+#navigation_pane { width: 970px; height: 20px; margin: 0px; padding: 5px; background-color: #A64686; border-bottom: 2px solid #fff; color: #C886B6; text-align: left; }
+#navigation_pane a { color: #fff; padding: 2px; text-decoration: none; color: #fff; text-transform: uppercase; font-weight: bold; font-size: 0.8em;}
+#navigation_pane a:hover { background-color: #C886B6; }
+#navigation_pane .special { color: #fff; padding: 2px; text-decoration: none; color: #fff; text-transform: uppercase; font-weight: bold; font-size: 1.0em;}
+
+#left_pane { width: 200px; margin: 0px;	padding: 0px;	float: left; clear: none; }
+
+#contact_pane { margin: 10px; padding: 10px; border: 2px solid #fff; background-color: #A64686;  }
+#contact_pane_title { font-size: 1.2em; text-align: center; font-weight:bold; }
+#contact_pane_text { font-size: 1.1em; text-align: center; }
+#contact_pane_image { }
+
+#hours_pane { margin: 10px; padding: 10px; border: 2px solid #fff; background-color: #A64686; font-size: 0.8em; color: #fff; }
+#hours_pane_title { margin-top: 0.0em; margin-bottom: 1.0em; color: #C786B6; text-transform: uppercase; font-weight: bold; }
+#hours_pane_table { margin-top: 0.0em; margin-bottom: 0.0em; }
+#hours_pane_table .row { margin-top: 0.0em; margin-bottom: 0.0em; float: none; clear: both; width: 150px; }
+#hours_pane_table .cell { margin-top: 0.0em; margin-bottom: 0.0em; float: left; clear: none; width: 50%; }
+
+#address_pane { margin: 10px; padding: 10px; border: 2px solid #fff; background-color: #A64686; font-size: 0.8em; color: #fff; }
+#address_pane_title { color: #C786B6; text-transform: uppercase; font-weight: bold; }
+#address_pane_text { margin-top: 1em; }
+#address_pane_link { margin-top: 1em; }
+#address_pane_link a {color: #fff; }
+#address_pane_link a:hover {background-color:#C886B6; }
+
+#reservation_pane { margin: 10px; padding: 10px; border: 2px solid #fff; background-color: #A64686; font-size: 0.8em; color: #fff; }
+#reservation_pane_title { color: #C786B6; text-transform: uppercase; font-weight: bold; }
+#reservation_pane_text { margin-top: 1em; }
+#reservation_pane a {}
+#reservation_pane form {}
+#reservation_pane input { border: 1px solid #fff; background-color: #C886B6; padding: 2px;}
+#reservation_pane form div { margin-top: 1em;}
+
+#right_pane { font-family: candara;  width: 750px; margin: 10px;	padding: 0px;	float: left; clear: none; }
+#right_pane h1 { font-size: 1.5em; margin-bottom: 0.2em; margin-top: 0.0em; }
+#right_pane h2 { font-size: 1.3em; margin-bottom: 0.2em; margin-top: 1.0em; clear: both; float: none; color: #A64686; }
+#right_pane h3 { margin-bottom: 0.2em; margin-top: 1.0em; font-size: 1.1em; font-weight: bold; clear: left; float: none; }
+#right_pane p { margin-bottom: 1em; }
+#right_pane ul {}
+#right_pane li { margin-left: 1em; }
+#right_pane a { color: #fff;}
+#right_pane div { margin-bottom: 1em; border: 0px solid; }
+#right_pane .left_column { width: 470px; float: left; clear: none; }
+#right_pane .right_column { width: 260px; float: right; clear: none; }
+#right_pane .number { margin-bottom: 0.2em; margin-top: 0.0em; margin-left: 0px; width: 40px; clear: left; float: left; font-size: 1.1em; font-weight: bold;  }
+#right_pane .name { margin-bottom: 0.2em; margin-top: 0.0em; margin-left: 0px; width: 420px; clear: none; float: left; font-size: 1.1em; font-weight: bold; }
+#right_pane .text { margin-bottom: 0.2em; margin-top: 0.0em; margin-left: 40px; width: 280px; clear: left; float: left; }
+#right_pane .price { margin-bottom: 0.2em; margin-top: 0.0em; width: 140px; clear: none; float: left; text-align: right; font-weight: bold; font-style: italic; }
+#right_pane .small { margin-bottom: 0.2em; margin-top: 0.0em; margin-left: 40px; width: 280px; color: #C886B6; font-style: italic; font-size: 0.8em; clear: left; float: left; }
+#right_pane .image { margin-left: 1.0em; margin-bottom: 1.0em; border: 3px solid #333; float: right; clear: right; background-color: #222; text-align: center;}
+#right_pane .top { clear: both; font-size: 0.8em; margin-top: 1.0em; margin-bottom: 1.0em; text-align: right;}
+#right_pane .pretext { margin-bottom: 0.2em; margin-top: 0.0em; margin-left: 40px; width: 420px; clear: none; float: left;}
+
+
+#bottom_pane { width: 980px; height: 20px; float: none; clear: both; font-size: 0.8em; font-style: italic; font-weight: normal;	text-align: center;	background-color: #A64686; border-top: 2px solid #fff; }
+
+#contact { margin: 1.0em; padding: 1.0em; border: 2px solid #fff; background-color: #222; width: 50%; }
+#contact div { margin-top: 0.1em; margin-bottom: 0.1em; padding: 0.0em; }
+#contact input { margin-top: 0.1em; margin-bottom: 0.5em; padding: 0.0em; background-color: #333; border: 1px solid #666; color: #eee;}
+#contact textarea { margin-top: 0.1em; margin-bottom: 0.5em; padding: 0.0em; background-color: #333; border: 1px solid #666; color: #eee;}
+
+#photo_gallery {}
+#photo_gallery .photo_group { margin-bottom: 2.0em; float: left; clear: both; }
+#photo_gallery .photo { width: 240px; border: 0.1em solid #666; background-color: #333; text-align: left; float: left; clear: none; margin: 0.2em; font-size: 0.8em;}
+#photo_gallery .photo img { }
+#photo_gallery .photo p { padding: 0.5em; margin: 0.0em;}
